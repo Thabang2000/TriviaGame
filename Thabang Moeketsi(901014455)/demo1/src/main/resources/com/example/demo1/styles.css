@@ -1,0 +1,117 @@
+/* Existing styles */
+
+/* Styles for the root BorderPane */
+.root {
+    -fx-background-color: #dce6f2;
+}
+
+/* Styles for labels */
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Styles for buttons */
+.button {
+    -fx-font-size: 16px;
+}
+
+/* Style for the correct answer */
+.correct-answer {
+    -fx-text-fill: green;
+}
+
+/* Style for the incorrect answer */
+.incorrect-answer {
+    -fx-text-fill: red;
+}
+
+/* Styles for the score area */
+.text-area {
+    -fx-pref-width: 600px;
+    -fx-pref-height: 100px;
+    -fx-wrap-text: true;
+}
+
+/* Styles for the time label */
+.time-label {
+    -fx-font-size: 20px;
+}
+
+/* New styles */
+
+/* Styles for the ImageView */
+.image-view {
+    -fx-fit-width: 600px;
+    -fx-fit-height: 400px;
+}
+
+/* Styles for the options VBox */
+.options-box {
+    -fx-alignment: center;
+}
+
+/* Styles for the end screen center VBox */
+.end-screen-center {
+    -fx-alignment: center;
+}
+
+/* Styles for the start button */
+.start-button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 10px 24px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 4px;
+    -fx-transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Styles for the video button */
+.video-button {
+    -fx-background-color: #008CBA; /* Blue */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 10px 24px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 4px;
+    -fx-transition: background-color 0.3s ease;
+}
+
+.video-button:hover {
+    -fx-background-color: #0073e6;
+}
+
+/* Styles for the end game buttons */
+.end-game-button {
+    -fx-background-color: #f44336; /* Red */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 10px 24px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 4px;
+    -fx-transition: background-color 0.3s ease;
+}
+
+.end-game-button:hover {
+    -fx-background-color: #d62727;
+}
